@@ -1,0 +1,21 @@
+.header{
+  border: 1px solid;
+}
+.header__row{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 72px;
+}
+.logo img{
+  display: block;
+}
+.nav__list--item{
+  margin-left: 32px;
+  text-decoration: none;
+  color: #18191F;
+  font-weight: 700;
+}
+.store{
+  margin-left: auto;
+}

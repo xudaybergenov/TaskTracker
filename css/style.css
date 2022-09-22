@@ -1,4 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap");
+.header {
+  border: 1px solid;
+}
+
+.header__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 72px;
+}
+
+.logo img {
+  display: block;
+}
+
+.nav__list--item {
+  margin-left: 32px;
+  text-decoration: none;
+  color: #18191F;
+  font-weight: 700;
+}
+
+.store {
+  margin-left: auto;
+}
+
 *,
 ::before,
 ::after {
@@ -10,5 +40,17 @@
 
 body {
   font-family: 'Manrope', sans-serif;
+}
+
+.wrapper {
+  max-width: 1440px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 /*# sourceMappingURL=style.css.map */
