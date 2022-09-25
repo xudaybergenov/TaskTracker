@@ -1,5 +1,5 @@
 .header{
-  border: 1px solid;
+  border: 1px solid #E5E9F2;
 }
 .header__row{
   display: flex;
@@ -15,7 +15,10 @@
   text-decoration: none;
   color: #18191F;
   font-weight: 700;
+  font-size: 14px;
 }
 .store{
+  display: flex;
+  column-gap: 12px;
   margin-left: auto;
 }
