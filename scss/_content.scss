@@ -1,0 +1,40 @@
+.content{
+  padding: 220px 0 197px;
+}
+.content__row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content__text{
+  max-width: 540px;
+}
+.content__title{
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 98px;
+  padding-bottom: 16px;
+}
+.content__copy{
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 32px;
+  padding-bottom: 32px;
+}
+.content__link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 284px;
+  height: 62px;
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(140, 48, 245);
+}
+.content__img img{
+  width: 524px;
+  height: 400px;
+}
