@@ -26,6 +26,10 @@
   font-size: 14px;
 }
 
+.nav__list--item:hover {
+  color: #8C30F5;
+}
+
 .store {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -87,6 +91,10 @@
   border-radius: 5px;
   color: white;
   background-color: #8c30f5;
+}
+
+.content__link:hover {
+  background-color: #9b4bf7;
 }
 
 .content__img img {
